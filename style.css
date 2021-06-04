@@ -1,0 +1,94 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  .nav-link{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+  #Home{
+    background-image: url("https://wallpapercave.com/wp/wp2757874.gif");
+    background-size: cover;
+    color: white;
+  }
+  #HOME{
+    padding-top: 220px;
+  }
+  #social{
+    text-align: center;
+  }
+  #topname{
+    font-family: 'Pangolin', cursive;
+    font-size:72px;
+    letter-spacing:2px;
+  }
+  #greet{
+    font-family: 'Pangolin', cursive;
+    font-size:54px;
+  }
+  #job{
+    font-family: 'Pangolin', cursive;
+    font-size:36px;
+    letter-spacing:2px;
+  }
+  #About{
+    background-color:#9973a0;
+    color: white;
+    opacity: 0.95;
+  }
+  .ps{
+    margin-top: 100px;
+  }
+  .ap-1{
+    font-size: 24px;
+    font-family: 'Itim', cursive;
+  }
+  .ap-2{
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+  }
+
+  #Resume{
+    background-color:#908ab8;
+    opacity: 0.8;
+    color: white;
+  }
+  hr{
+    width: 4%;
+    border: none;
+    border-style: dotted;
+    border-top: 15px;
+    border-width: 7px;
+    border-spacing:  7px;
+    color: #344fa1;
+  }
+  #Project{
+    background-color: #7964aa;
+    opacity: 1.4;
+    color: white;
+    
+  }
+  #Contact{
+    background-color: #3f3697;
+    opacity: 0.7;
+    color: white;
+  }
+  
+  @media screen and (max-width:575px) {
+    #HOME{
+      padding-top: 150px;
+    }
+    #topname{
+      font-size:48px;
+    }
+    #greet{
+      font-size: 36px;
+    }
+    #job{
+      font-size: 24px;
+    }
+  }
